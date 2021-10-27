@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;700&display=swap');
+
+:root{
+    --primary-color:#333DF9FF;
+    --grey-color:#6B7280;
+    --off-white:#F3F4F6;
+}
+
+body
+{
+    font-family: 'Mulish', sans-serif;
+
+}
+
+/*@container*/
+.container
+{
+    /*padding : top&bottom right&left*/
+    padding : 0rem 2rem 
+}
+.container-center{
+    max-width: 600px;
+    /*margin auto takes element to center*/
+    margin:auto ;    
+}
+
+/*@links*/
+.links
+{
+    /*to reomove underline part in link*/
+    text-decoration: none;
+    padding: 0.5rem 0.5rem
+}
+.link-primary{
+    background-color :var(--primary-color);
+    border-radius:0.5rem;
+    color: white;
+    display: block;
+    max-width: 120px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+.link-secondary{
+    color:var(--primary-color);
+    border-radius:0.5rem ;
+    border:1px solid var(--primary-color);
+    display: block;
+    max-width: 120px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+hr{
+    margin:2rem 0rem;
+}
+
+/*@lists*/
+.list-non-bullet
+{
+    list-style: none;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/*@navigation*/
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    border-radius:0.3rem;
+}
+.navigation .links{
+    color:white;
+}
+.navigation .brand-name{
+    padding:1rem 1rem;
+    font-weight: bold;
+}
+.navigation .nav-buttons
+{
+    text-align: right;
+    padding:1rem 1rem;
+}
+.navigation .link-active
+{
+    font-weight: bold;
+}
+
+/*@header*/
+.hero{
+    padding:2rem;
+}
+.hero .hero-image
+{
+    max-width: 350px;
+    display:block;
+    margin:auto;
+}
+.hero .hero-heading
+{
+    color:var(--grey-color);
+    text-align: center;
+    padding:1rem;
+}
+.emphasize-name{
+    color:var(--primary-color);
+}
+/*@section*/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.section-offw{
+    background-color:var(--off-white); 
+    padding: 2rem; 
+}
+
+.section-offw h1{
+    text-align: center;
+}
+
+/*@footer*/
+.footer-section
+{
+    background-color :var(--primary-color);
+    border-radius: 0.3rem;
+    padding:2rem 1rem;
+    text-align: center;
+    color:white;
+   
+}
+.footer-section .links{
+    
+    padding:1rem 1rem;
+    color:white;
+}
+.footer-header
+{
+    font-weight:bold;
+    font-size: x-large;
+}
+
+ul{
+    padding-inline-start:0px;
+}
